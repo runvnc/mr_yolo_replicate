@@ -1,4 +1,4 @@
-#from lib.providers.commands import command
+from lib.providers.commands import command
 import json
 import os
 import replicate
@@ -56,7 +56,7 @@ def extract_subimages(image_path: str, detections_json: str) -> tuple:
         subimages.append(subimage)
     return subimages, dimensions
 
-#@command()
+@command()
 async def get_object_images(abs_image_file_path: str, class_names: str, context=None):
     """Uses YOLO to extract rectangular images of objects found in an input image.
     

@@ -1,6 +1,7 @@
 {
-  "name": "MySQL Plugin",
+  "name": "YOLO via replicate.com",
   "version": "1.0.0",
-  "description": "MySQL database query and management tools",
+  "description": "YOLO object detection and image extraction via bounding boxes",
+  
   "services": []
 }
